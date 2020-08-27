@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "install": "cmake-js compile",
+    "install": "node build.js",
     "install-all": "node install.js --all",
     "build": "cmake-js compile",
     "deploy": "node build.js",
