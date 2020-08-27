@@ -5,8 +5,9 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "install": "yarn cmake-js compile -r electron -v 9.1.2",
-    "build": "yarn cmake-js compile -r electron -v 9.1.2",
+    "install": "node install.js",
+    "install-all": "node install.js --all",
+    "build": "cmake-js compile",
     "deploy": "node build.js",
     "test": "jest",
     "docs:dev": "vuepress dev docs",
