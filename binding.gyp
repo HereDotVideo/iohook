@@ -1,5 +1,5 @@
 {
     'targets': [{
-    'target_name': 'robotjs'}]
+    'target_name': 'iohook'}]
 
 }
